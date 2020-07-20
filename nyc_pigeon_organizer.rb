@@ -28,7 +28,7 @@ test_data = {
 
 
 def nyc_pigeon_organizer(data)
-  names = []
+  names = [""]
   data.each do |x|
     data[x].each do |y|
       names << data[x][y].uniq

@@ -22,7 +22,7 @@ pigeon_data = {
 test_data = {
   :color => {
     :blue => ["Anson", "Archie"],
-    :green => ["Reva"]
+    :green => ["Reva", "Reva"]
   }
 }
 

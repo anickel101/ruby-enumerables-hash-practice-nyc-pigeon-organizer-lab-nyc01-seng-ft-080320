@@ -22,10 +22,7 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  data.each do |key, value|
-    if value.is_a?(Hash)
-      nyc_pigeon_organizer(value)
-  end
+
 end
 
 binding.pry

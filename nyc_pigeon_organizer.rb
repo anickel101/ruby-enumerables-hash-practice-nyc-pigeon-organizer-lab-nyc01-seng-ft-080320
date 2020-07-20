@@ -19,12 +19,6 @@ pigeon_data = {
   }
 }
 
-test_data = {
-  :color => {
-    :blue => ["Anson", "Archie"],
-    :green => ["Reva", "Reva"]
-  }
-}
 
 
 def nyc_pigeon_organizer(data)

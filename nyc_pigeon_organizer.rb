@@ -21,7 +21,7 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  data.map {|x| puts x}.uniq 
+  data.map {|x| p x}.uniq 
 end
 
 binding.pry

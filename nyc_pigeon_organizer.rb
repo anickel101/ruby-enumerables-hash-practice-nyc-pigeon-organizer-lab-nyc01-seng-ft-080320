@@ -22,7 +22,7 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  data.each_with_object({}) do |(key, value), name_array
+  data.each_with_object({}) do |(key, value), name_hash
 end
 
 binding.pry

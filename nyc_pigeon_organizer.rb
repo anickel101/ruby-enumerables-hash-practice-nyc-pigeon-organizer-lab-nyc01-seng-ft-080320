@@ -29,6 +29,7 @@ test_data = {
 
 def nyc_pigeon_organizer(data)
   data.each do |key, value|
+    if value.is_a?(Hash)
     p data[key]
   end
 end

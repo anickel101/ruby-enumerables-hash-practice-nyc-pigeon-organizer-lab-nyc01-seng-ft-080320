@@ -28,7 +28,8 @@ test_data = {
 
 
 def nyc_pigeon_organizer(data)
-  
+  data.map do |x, y|
+    data[x][y].uniq
 end
 
 binding.pry

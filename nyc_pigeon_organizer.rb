@@ -29,8 +29,7 @@ test_data = {
 
 def nyc_pigeon_organizer(data)
   data.each do |key, value|
-    
-    end
+    puts data[key]
   end
 end
 

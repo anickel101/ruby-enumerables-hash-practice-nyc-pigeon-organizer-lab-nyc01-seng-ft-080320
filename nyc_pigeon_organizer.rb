@@ -28,7 +28,6 @@ test_data = {
 
 
 def nyc_pigeon_organizer(data)
-  binding.pry
   names = []
   data.each do |x|
     data[x].each do |y|

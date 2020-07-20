@@ -28,7 +28,6 @@ test_data = {
 
 
 def nyc_pigeon_organizer(data)
-  data.uniq
 end
 
 binding.pry

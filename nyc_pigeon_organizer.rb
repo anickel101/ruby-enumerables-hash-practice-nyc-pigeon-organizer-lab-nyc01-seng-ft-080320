@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     if value.is_a?(Hash)
       value.each do |k, v|
-        
+        nyc_pigeon_organizer(value)
   end
 end
 
